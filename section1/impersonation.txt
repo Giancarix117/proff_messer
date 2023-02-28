@@ -1,0 +1,31 @@
+All of the good attackers are very good at impersonation. This usually starts with a pretext which is simply a lie that sets up the entire scenario for the particular attack. There is usually an actor.
+
+This is usually the attacker who is trying to gain access or get information from you. And there is very often a story. I went out to YouTube and transcribed a list of actual attacks that were used and the pretext that were used during the attack itself.
+
+Here is the first one. Hello, sir. My name is Wendy. And I’m from Microsoft Windows. This is an urgent check-up call for your computer, as we have found several problems with it.
+
+Obviously, they’re not calling from Microsoft Windows. And Wendy is not a representative of Microsoft. This is someone who is trying to either gain access to your computer to convince you there is something wrong with it and to pay them to fix it or to gain access to your computer so that it can then participate in a botnet.
+
+Here is another one. It’s a voicemail message that says, this is an enforcement action executed by the US Treasury intending your serious attention. Not quite the best grammar, but it’s someone who is pretending to be from the US Treasury, and ultimately, is trying to get even more money from you.
+
+And lastly, congratulations on your excellent payment history. You now qualify for 0% interest rates on all of your credit card accounts. Obviously, they want us to then fill out a financial application, which, of course, will have our personal details that I’m handing right over to the attackers.
+
+In each of these situations, the attacker was trying to pretend to be someone they were not. This was not Wendy from Microsoft. This was not someone from the US Treasury. They were pretending to be from those organizations.
+
+This is called impersonation. And if you are someone who is an attacker, you need to be very good at impersonating someone else. Very often, the attacker picks the person to impersonate based on some reconnaissance that they’ve done of you or your organization.
+
+They commonly know your name. They know the organization you work for. They know there is a help desk. They might even know the city and state that the help desk happens to be in.
+
+Very often, they impersonate as someone who is higher end rank than you happen to be. So they’re calling from the executive offices. Or they’re the vice president in charge of a particular department, and therefore, trying to get you to act quickly based on their particular role in the organization.
+
+It wouldn’t be a good help desk impersonation if you didn’t throw around a lot of technical terms. And it’s a way that the attacker can try to confuse the person who’s on the other end of the phone. And lastly, maybe they just act very friendly, that of course they’re from this organization. And they might even mention things that are occurring in the local area to make you feel comfortable with who you’re talking to.
+
+Once the attacker has the victim at ease, they can start extracting information very easily from that person. This is called eliciting information from the end user. And it’s very often an easy way that the attacker can get email addresses, passwords, or anything else that makes sense for that particular attack. This is very commonly done with voice phishing or vishing, where somebody is performing this attack over the phone instead of email or text messages. And of course, there are some very common, well-documented, psychological methods that attackers use to be able to put people at ease and gather this information from the end user.
+
+Very often, these attackers are after your personal information. You may not realize how valuable your personal details happen to be. Identity fraud is a massive problem around the world. And the attackers know that they can use your personal details to be able to perform a lot of different kinds of attacks in other places. For example, they can open up credit card information. Or they can use your credit card information to be able to make purchases in their name.
+
+They might also be able to access your bank account and transfer money out of your account, because now they have all of your personal details that, of course, your bank is going to ask as well to make them prove that you whenever you call in to your bank line. You might often see this extended into things like loan fraud where someone opens loans or leases in your name because they’ve effectively become you. They know everything there is to know about being you because you provided that identity to them using these types of attacks. You might also see your personal information used in government benefit fraud or tax fraud where the attacker is able to get money sent to them by pretending that they are you.
+
+To be able to avoid these situations, you want to be very protective of your personal information and never volunteer anything to anyone who might be calling you. No one is ever going to ask you for a password, because that information is not required to be able to perform technical support services. You also don’t want to give someone personal details or more information about you that normally they would not have.
+
+And of, course it’s very useful if you can verify the person who is calling you. Let me hang up. I’ll check the number. I’ll call you back directly. And we’ll make sure that you are the person who you say you are. This verification of the people who might be calling for this information should be part of your normal processes. Especially if you’re someone who is in charge of very important pieces of information, you want to be sure that you’re communicating with someone who’s legitimate on the other end of the phone.
