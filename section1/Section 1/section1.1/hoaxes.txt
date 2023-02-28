@@ -1,0 +1,23 @@
+In the world of IT security, a hoax is a situation that seems like it could be real, but in reality, it’s not real at all. This is something that can take many different forms, from an email, to a message on your screen, to a voicemail that you might receive. And even though these situations aren’t real, they still use a lot of your time, a lot of your energy, a lot of your resources. And you may even have to pull in other people in your organization and use their resources as well.
+
+One of the challenges with stopping a hoax is you’re never quite sure how it’s going to manifest itself. It might be something on Facebook. It might be an email message that you receive. It might be something that pops up in your browser.
+
+Many of the current hoaxes tend to get money from you, but they tend to do it by making you purchase gift cards and send the person on the other end of the hoax the code information from the gift card itself. So they’re not tapping into your bank to take your money. They’re making you purchase the gift card. And you’re handing the gift card to them.
+
+We still sometimes even see hoaxes associated with viruses or with malware that aren’t actually viruses or malware on your system. They’re just making themselves look as if you are infected with this particular type of malware. Just so I could get a hoax that would be somewhat timely, minutes before shooting this video, I went into my spam folder.
+
+The fourth message down was this one. It’s from the Western Union Foundation. And it says, congratulations. It gives me a reference number. And it says, you have been approved to receive the sum of $850,000 US.
+
+And that was in my spam folder. I almost missed it. It says, for more information to claim your grand prize, please contact us. It gave a Gmail address. And it gave a WhatsApp number. And of course, if you’re going to redeem $850,000 US, you’ll certainly do this over WhatsApp.
+
+I did not send any messages to this WhatsApp number. I did not email this particular contact name. But I can imagine they’d be trying to get some personal information out of me if I happened to respond to this particular hoax.
+
+I ran into another hoax. As I was putting together this training course, I was going to a website that I was typing in. And the website was a .net website, but I typed in .com. And instead of going to the website, I received this message inside of my browser which looks like a window on top of my browser, but it actually was a graphic in the browser itself.
+
+And it looks like a really well-done software update page to update my Adobe Flash Player. And it even says, you can download Flash and click the Update button here. And while I was on this screen, it even popped open a new window on top of that and began an animation that showed it downloading this particular update to my computer. I would imagine if I clicked the Update button, that it would have installed some malware. And my machine would have been infected all because I saw this hoax appear inside of my browser window.
+
+If you’re receiving these unsolicited messages on the internet, then it’s probably a good idea to be a little suspicious of what you’re reading. And you might want to double check before following through with some of these messages. A good place to cross-reference some of these are some very popular websites such as hoaxslayer.net and snopes.com.
+
+You might also want to make sure that your spam filter is operating. For example, the one that was an obvious hoax to me ended up going directly to my spam. I didn’t even see it. I was not affected by it. And it would have been deleted automatically in 30 days.
+
+Ultimately, if the thing that you’re reading sounds just too good to be true, then it probably is. You want to be sure that you don’t fall victim to any of these hoaxes, regardless of how the attackers try to get them in front of you.

@@ -1,0 +1,19 @@
+When you first became interested in IT security, were you ever thinking that you might spend your time inside of a garbage bin, looking through pieces of personal information? This is the concept of Dumpster diving. And it is a very valid way to gather important details from things that people have thrown out in their trash.
+
+We call this Dumpster diving because in the United States, this receptacle is a trademark name called a Dumpster. This Dumpster is usually called other things in other countries. It’s a rubbish skip. It’s a garbage disposal unit. But it is a place where people will throw away their garbage.
+
+Think about all of the things that you might put into your garbage. There’s usually monthly statements, information from business associates, friends, family. And all of this personal information can be used by an attacker. All the attacker has to do is wait until you take out the trash. And they’ll simply pick it up and take it with them.
+
+One question that always comes up when we start talking about Dumpster diving is the legalities around performing this particular kind of attack. If you’re in the United States, Dumpster diving is generally something that is seen as legal unless there happen to be local laws or regulations that might prohibit it.
+
+In many places, though, if it’s in the garbage, then it’s accessible to whoever happens to be around. This is something that you’ve decided to throw away. So therefore, it’s something that anyone else would be able to gain access to.
+
+In some places, you may find that there are no trespassing signs or restricted signs that would prevent you from going into the area where this garbage happens to be. The rule is generally that you can’t break the law to be able to gain access to the location that has the Dumpster.
+
+Of course, there are nuances and gray areas of the law depending on where you happen to live. So if you’re interested in performing this type of reconnaissance, make sure that you check with a legal representative in your area.
+
+To be able to prevent someone else from gaining access to your personal details, you want to make sure that your particular garbage area is locked up and secured, especially if you’re in a large organization. You might want to keep this behind a lock and key in a fenced area.
+
+Another great way to prevent somebody from reading your documents is to cut your documents up into very small pieces. There are shredders that can do this for you automatically. And in some very high-security organizations, they will simply burn all of this information to make sure that you could not put it all back together again.
+
+So what’s in your garbage? You might want to look through the things that you’re throwing out and make sure that you’re not handing over your personal information to an attacker that’s simply going through all of your garbage cans.
