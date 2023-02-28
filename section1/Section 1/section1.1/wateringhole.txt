@@ -1,0 +1,19 @@
+An organization that is very secure creates a problem for attackers. They’re trying to infect the systems that are inside of your network, but you’ve made sure that users are not going to pick up a USB key. They’re not going to click on links inside of an email or give someone that is outside the organization more access than they should have.
+
+Because of this high level of security, the attackers have changed their strategy. Instead of going directly to you, they’re going to go to a third party. And hopefully you’ll visit the third party and become infected.
+
+This third party is the watering hole. It’s the central place where they’re hoping users inside of your organization are going to come and take a drink. Once they in fact the watering hole, your users visit that website, become infected themselves. And now the attackers have a way into your network.
+
+This usually takes a bit of research on the part of the attackers. They need to find out where your users are visiting. Sometimes this might be an educated guess by the attackers.
+
+They might try to infect a local sandwich shop. And then when you go to place an order, you become infected. There might be another more industrial site that your organization often visits. And that industrial site would be a perfect place to have a watering hole attack.
+
+The attackers then focus their efforts on trying to find a vulnerability on this third-party site. The attacker is trying to direct their attack towards a particular group or organization, but often they have to put malware on a site that will affect everyone who visits that site. And what they’re hoping is that you will be part of that larger group that visits and becomes infected by visiting the site.
+
+A good example of a watering hole attack occurred in January of 2017 on multiple websites. The attackers infected the third-party sites that belong to the Polish Financial Supervision Authority, the National Banking and Stock Commission of Mexico, and the state-owned bank in Uruguay. You’ll notice that all of these sites had a similar financial focus.
+
+And if we look into the payload that was sent from these watering hole attacks, it was downloading malicious JavaScript files, but only to people who were visiting the site from very specific IP addresses. And if we looked at the IP addresses that were in this list, it matched banks and other financial institutions. So this watering hole attack was on very large sites visited by many people, but it was only going to infect very particular visitors to that site. In this particular case, the watering hole attack was discovered, but we still don’t know exactly the extent of who may have been infected prior to the discovery of the attack.
+
+There are ways to help prevent a watering hole attack. One of the things you can do is to make sure that all of your systems are very well secured. And it’s not just using one particular type of security defense. You need a layered defense, or something we call defense in depth. You might also want to consider having a next-generation firewall or intrusion prevention system that is able to look for these types of attacks or this type of malicious software and stop it before it gets onto your systems.
+
+A good example of this layering of defense can be found with this Polish Financial Supervision Authority attack. Users who visited this infected watering hole and were running Symantec’s antivirus software found that it alerted on a generic JavaScript attack signature. If you are running this Symantec antivirus and you visited the poisoned watering hole, then your system would block that JavaScript from running on your system. And you would not be infected. It’s always important to be aware of these types of attacks, whether they’re on the inside of your network or on a third-party site.

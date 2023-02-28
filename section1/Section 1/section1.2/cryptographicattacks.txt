@@ -1,0 +1,29 @@
+Let’s say that you’ve encrypted some data, and you’ve put it into an email. And you’re sending me this encrypted message. How do we know if that data that you’re sending to me was really secure all the way between you and me and that nobody in the middle was able to gain access to that information? This is a challenge we have when dealing with cryptographic attacks.
+
+The attacker often doesn’t have the key to be able to decrypt what’s there. So instead they use other techniques to try to gain access to the data. Very often, even though they don’t have the combination of the safe, they may be able to break in through other parts of the safe to gain access to what’s inside.
+
+Attackers spend a lot of time trying to find inconsistencies, problems, and cryptographic vulnerabilities with these methods that we use to transfer data from point A to point B. And very often it’s not the cryptography that’s the problem. It’s the way that we’ve implemented the cryptography that allows the attackers to gain access to the data.
+
+One type of attack is the birthday attack, and the birthday attack is based around this particular problem. You have a classroom of 23 students. What is the chance that two students in the classroom share a birthday? The answer’s 50%, which is a pretty high number considering there’s only 23 students.
+
+If we had 30 students, this would increase to about 70% of a chance. That’s because we’re not comparing to individual students to see if they share a birthday. We’re comparing every student to every other student to see if there’s a shared birthday.
+
+In the digital world, we call this a “hash collision.” A hash collision is when you have two very different types of plain text, but both of those plain text create exactly the same hash. This is something that should never happen.
+
+And if we’re able to find a hash collision, we may be able to take advantage of this inconsistency in the hash algorithm. With the hash collision, the attacker spends their time finding that other type of plain text that matches that hash. One way to prevent this is to increase the size of the hash, which decreases the potential to have a collision.
+
+Collisions are bad because the hashes are always supposed to be a unique value. If you put in one type of plain text, it should be a unique hash. If you put in a different plain text, it should never be exactly the same hash.
+
+One well-known collision hash occurred with MD5. This was the Message Digest Algorithm version 5, which was first published in April of 1992, and we identified collisions with this hashing algorithm in 1996. Researchers were able to expand on this hash collision. And in December of 2008, they created a certificate authority certificate that appeared legitimate if you looked at the MD5 hash.
+
+So they were effectively able to create a fake certificate authority that looked like a completely legitimate CA. This is obviously going to create some significant concerns if you’re relying on these CA signatures for the trust of your website certificates. Here’s an example of a collision that occurs with MD5.
+
+These are two separate inputs. And you can see they’re mostly similar, but there are some differences between the two that are highlighted in red. If you perform an MD5 hash against both of these, you should receive a very different hash. But in reality, you receive exactly the same hash, and that is a hash collision.
+
+Another type of attack is a downgrade attack. Normally when you want to communicate securely to another device, there’s a conversation that initially takes place where both sides determine what the best possible encryption algorithm might be. If you’re able to somehow sit-in the middle and influence that conversation, you could have the two sides downgrade to a type of encryption that might be very easy to break.
+
+A popular example of a downgrade attack occurred in 2014. These were researchers that found a vulnerability in the transport layer security. This was the security that was the successor to SSL or Secure Sockets Layer, or the encryption mechanism that we use to communicate to web servers.
+
+They were able to sit-in the middle of a conversation between two devices. That would be in on-path attack. And they forced the two sides to communicate at a much downgraded level of encryption. They fell back to SSL version 3.0.
+
+Well, with SSL 3.0, there are some significant cryptographic vulnerabilities, which is why we don’t use SSL 3.0 any longer. And because of that, the rest of the conversation was one that was susceptible to being decrypted by the third party. After this particular vulnerability was released, we all configured our servers not to allow SSL 3.0. We changed our browser configuration. And these days, it’s very difficult to find a browser that even supports SSL 3.0 all because of this poodle downgrade attack.

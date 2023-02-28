@@ -1,0 +1,27 @@
+If you work in an office where you badge in to unlock a door to gain access to the inside, then you’ve probably been told to prevent someone from tailgating. Tailgating is when an unauthorized individual might follow you in through that open door without badging in themselves. This is very often not an accident. They are intentionally trying to gain access to the inside, and they are doing it by using your credentials.
+
+There can be a significant social engineering aspect to tailgating. In Johnny Long’s book, No Tech Hacking, he uses the clothing that would be from a third party vendor to gain access into a facility. You’re blending in. You seem to have a legitimate reason for being inside, and someone might hold the door open to allow someone in to fix the telephone system, for example.
+
+Sometimes those individuals will sit in the smoking section, pretending that they are on break, and then they’ll simply follow another smoker back into the building, saying that it’s time to get back to work. And they’ll simply allow them back in, because they think that they originally started from inside of the building. And I’ve seen a number of people gain access to a building by having their hands full of food or treats, and making sure that someone can keep that door open so that you’re allowed in with all of this food.
+
+Tailgating is an important thing to prevent, because usually that door is the last security piece before gaining access into a sensitive area. And you don’t want to be in a situation where you’re now allowing people through that last line of defense, and now they would have access to the entire inside of the building.
+
+Most organizations will have a policy for visitors. You’re given a visitor badge. It’s very clear that you’re allowed into the building or that you’re allowed in as long as you have someone with you who is a member of that organization. You often see signs next to the locked door that says, no tailgating, or one scan, one person, to remind people not to allow others to walk through behind them.
+
+Some organizations will have an access control vestibule or some other type of process that would only allow one person through at a time. You have to badge in. You’re allowed through, and the next person has to badge in before they’re able to gain access through that locked door.
+
+I’ve also been inside of many organizations as a visitor, and I left my visitor badge on a desk while I got coffee and I’ve had people in the organization stopped me at the coffee machine and ask me who I was. They’ve been trained very well to make sure that they know everybody who’s on the inside And what they happen to be doing inside of their business.
+
+Another common social engineering attack is an invoice scam. This is when the attacker has done the work to figure out who pays the invoices in your organization, and they send an invoice directly to that person with a bill that needs to be paid.
+
+This is obviously a fake invoice. This attacker has not provided any products or services, but they are providing you with a bill that looks very much like something you should be paying. Often, the invoice is for products that you are using in your organization, and often the email with the invoice is one that is a spoofed address that looks like it’s from somebody of authority within the organization asking you to pay this invoice.
+
+With all of that information that looks legitimate, it’s common for an accounting department to then pay that particular invoice without performing the normal checks to make sure that it’s legitimate. There might even be a link on the invoice to pay online, in which case, the attacker now not only has payment, but they also have information about your credit card or your bank account.
+
+A social engineering attack that’s a little more unusual but still quite effective is the credential harvesting attack. Credential harvesting is when the attackers are trying to gain access to your usernames and passwords that might be stored on your local computer. We often have these credentials that are stored in our browser or on our operating system, and obviously the attackers would love to have a copy of all of your usernames and all of your passwords.
+
+The different applications will store these credentials in different ways. So Chrome will store the credentials in one way, and your Outlook or email client will store them in a different way. The attackers are trying to find every place where these credentials are stored and be able to extract them so that they can use them for themselves.
+
+To be able to extract these credentials, a script needs to run on your local computer. So the bad guys will often send an email that has an attachment that’s a Microsoft Word document. You open up the Microsoft Word document, and a macro will run automatically that will then go into the operating system, extract the credentials, and then email or send them off to the attacker.
+
+This type of attack can also occur without the end user even realizing these credentials have been stolen. That’s why it’s important to have antivirus and anti-malware software that can constantly watch for these types of attacks to occur and stop them before your credentials are harvested.

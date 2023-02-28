@@ -1,0 +1,19 @@
+If your computer is infected with adware, then you’re seeing advertisements almost everywhere on your system. They’re inside of your browser. They’re on your Windows desktop. Everywhere you look, there is probably an advertisement to be seen.
+
+This can cause performance problems in your operating system. It can cause slowdowns inside of your browser. And you’ll probably see an increase in traffic across the network.
+
+This adware can sometimes be installed accidentally. Sometimes when you’re installing one application, it will install additional applications along with it. And sometimes those additional applications include adware. If you try to remove adware, you may find applications that say they are specifically designed to remove hardware, but what you may find is that software itself is malware or adware. Always use known, good, antivirus and anti-malware software if you ever need to remove adware.
+
+Spyware is a bit more malicious than adware, because it’s trying to find out things about you or to gather information about you. Spyware might be looking to see where you visit on the internet. It might be trying to identify personal information about you so that it can use that for identity theft, and anything else that it may be able to use by spying on you.
+
+Spyware it can be installed a number of different ways. And often, it’s a Trojan horse. You think you’re installing some peer-to-peer software or security software, but in reality, you’re installing spyware. Some of the most common spyware will examine the types of pages that you visit in your browser, identify some of the sites that you’re visiting, and capture any keystrokes you may be typing in so that it can identify usernames, passwords, and other important information.
+
+It seems like adware and spyware is a type of malicious software that simply won’t go away. That’s because you as an individual are very valuable to the malware author. They know that if they can put advertisements in front of you, that they can make money by making you watch those ads.
+
+They can spread these ads across thousands or even millions of users’ desktops, meaning that they can multiply the amount of money, and time, and resources being used to watch those advertisements. And of course, if they can install spyware and track your usernames and passwords, they could potentially gain access to important financial information or your bank accounts.
+
+Like most malware prevention, you need a good antivirus and anti-malware software installed. And you want to be sure your signatures are always up to date. You also want to be sure you know exactly what you’re installing. Installing unknown software from a third-party website is probably at pretty high risk for adware or spyware.
+
+Once this malware gets on your system, it’s very difficult to remove it. The adware authors do not want you removing their adware or their spyware. And in some cases, it may be almost impossible to completely remove that malware from your system. That’s why it’s so important to have a known good backup. That way you can delete everything on your system and restore everything to the way it was before you were infected.
+
+And you may find some software that is specifically written to be able to remove this type of malware. The Malwarebytes anti-malware for Windows and for Mac are very good examples of software that is specifically written to clean your system of this very annoying type of malware.

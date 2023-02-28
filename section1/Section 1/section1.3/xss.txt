@@ -1,0 +1,37 @@
+In this video, we’ll describe some techniques around cross-site scripting. If you ever see this abbreviated, it’s abbreviated with an XSS, instead of a CSS that you might think with cross-site scripting. But CSS is commonly associated with cascading style sheets, and when you’re working in web publishing, that’s a very popular topic, so keep in mind that a cross-site script is an XSS.
+
+We call this cross-site scripting because this was originally associated with a browser vulnerability that allowed information from one site to be shared with another site. These days it’s common to simply have this information shared from someone else’s browser and sent to the attacker. This is also an extremely common vulnerability to find on web-based applications, so it’s very important that if you’re developing a web-based application, that you look for and prevent these types of scripting vulnerabilities in the input of your application.
+
+We use JavaScript for so much in our browsers to be able to automate and add additional functionality, but the attackers know that they can also use JavaScript in conjunction with a vulnerable website to be able to gather information from your computer without you even knowing it happened.
+
+One type of cross-site scripting vulnerability is the non-persistent, or what we sometimes refer to as a reflected, cross-site scripting attack. This is found on a website that would allow someone to run scripts within the user input fields on that device. This might be in a search field, or some other input field on the web page.
+
+To be able to take advantage of this attack, the attacker needs the victim to click a very specific kind of link. Very often this is sent to the victim through an email, and the attacker will encourage the victim to click that email link to start the reflective cross-site scripting attack. The victim often clicks that link to run malicious scripts that are embedded within that URL, and whatever the output or payload from that particular result is is usually sent to the attacker.
+
+This can often be session IDs, or user credentials, or anything else the attacker would like to gather from that victim’s machine. Here’s a web application with a vulnerable field that would allow a cross-site scripting attack. This is a purpose-built application that has this flaw in it, and this is from something called WebGoat. If you wanted to run this WebGoat utility on your computer, you could load this up and perform your own cross-site scripting attacks.
+
+This is a shopping cart. In the shopping cart, you can modify the quantities. You can put in credit card numbers and access codes. We’re going to put a little bit of JavaScript right at the end of the credit card number.
+
+Let me back up a bit so we can really see what’s happening. At the end of the credit card number, it has a quote, and then starts a JavaScript, which, in this particular case, puts an alert on the screen. Usually the attacker doesn’t send an alert to the screen. They simply send that information off to the attacker’s computer, instead of showing anything on the victim’s workstation.
+
+But for this example, we’re going to put this script alert on the screen, and it’s going to show your session information, and then it’s going to show cookie and session ID information for this particular user. If that information was to get into the hands of the attacker, the attacker would be able to log in and gain access to this information without needing a username and password. They would simply use the stolen session ID information.
+
+Once we click the Purchase button, we get a message at the top of our screen that is the session information, the JSESSIONID, and the PHP session ID, all in that alert message. This would normally be sent to the attacker, and they would be able to authenticate to this website as if they were us, and of course, they would then gain access to all of our personal information.
+
+For the reflected cross-site scripting attack, we have to have that user click a very specifically-crafted link for that particular vulnerability to be exploited. There’s another type of cross-site scripting attack that can be stored permanently on a server, and anyone visiting that page would be running the script. This is a persistent, or stored cross-site scripting attack.
+
+You’ll often see this kind of attack on websites that have messages, or forum posts, and the cross-site scripting attack is embedded within that post. Once the attacker posts their malicious message, everyone who reads through that particular post will also get that malicious script and run it on their local machine.
+
+With the reflective attack, the attacker could specify the user that they were targeting, but with something like a stored cross-site scripting attack, that particular script is on the page, and anyone visiting the page would be running this script. As you can imagine, if anyone visiting the page is a victim of this particular attack, it can spread very quickly over social media. Someone liking a page or sharing a page might bring other folks to the page, and their machines would also run this particular malicious script.
+
+A practical example of a cross-site scripting attack was found by Aaron Guzman in June 2017. He’s a security researcher that found when he logged into the Subaru website, his particular session was given a token. This login token and session ID allowed him to connect back to the site without having to log in with his username and password.
+
+But what he found was that the token never expired, so any time his computer accessed the Subaru website, he was automatically authenticated and would not have to re-input his username and password. Well, this also meant that if anyone else gained access to this authentication token, they would also be able to gain access to his account details.
+
+This authentication token provided access to service requests on the Subaru website. For example, if you wanted to add a different user’s email to your particular vehicle, you could simply add that within your account information. This also meant that an attacker could add their email address to your car, and have full access to the online capabilities available for your Subaru.
+
+Compounding this problem was that the Subaru website had a cross-site scripting vulnerability in one of these input fields, and this means that anyone logging into the system could have their tokens sent to an attacker, who would then be able to add their email and gain full access to your car. This is yet another reason why we always tell you to never click a link in your email. It’s very difficult to see what that link consists of, and even if you could see it, it’s very easy to hide malicious information within that link. It’s better, instead, to go to the website that’s referenced in the email and log in yourself, manually.
+
+Another option might be to disable JavaScript entirely, but that’s very difficult to do on today’s modern websites. It’s probably more practical to have an extension or security tool that would allow you to manage the use of JavaScript on your system. Many of these vulnerabilities are also part of the browser, so keeping your browser up-to-date is also a good way to maintain the security of your system.
+
+And if you’re a developer, make sure that you’re validating all of the fields on a website. That way no one can take advantage and exploit something that might be a cross-site scripting vulnerability on your site.

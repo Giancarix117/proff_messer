@@ -1,0 +1,21 @@
+Very often, the most valuable thing we own is our data. This may be documents that we keep stored on our computer or family videos or photos that can’t be replaced.
+
+The data owned by a company is even more valuable. This might include planning documents of the company, employee PII, or Personally Identifiable Information, financial information, or proprietary and private data that only the company would have. With all of this valuable data on our systems, what if all of it suddenly disappeared?
+
+How much would you pay to get all of that data back? There is a number. And the attackers know that you will be willing to give them money if they could restore access to your files.
+
+This method of taking away your data and requiring you to pay to get that data back is called ransomware. This is a very popular way that the attackers are starting to make a lot of money by embedding malware on your system and requiring you to send them Bitcoin or some other kind of payment. Early forms of ransomware weren’t even real. They were hoaxes.
+
+This is an example of a ransomware hoax that says that inappropriate information was found on your computer by the Department of Justice of the Federal Bureau of Investigation. And to unlock your system, you have to pay a fine of $200. The reality is that no inappropriate information was found on this computer.
+
+This message is not from the Department of Justice, but it is malware that has locked the computer. And in some cases, a security professional may be able to remove this malware. And you would gain access to the system again.
+
+The attackers realized very quickly that having a hoax as part of the ransomware wasn’t good enough. They really needed a way to lock your personal files and your private information, so they created a new form of ransomware called crypto-malware. Crypto-malware uses cryptography to be able to encrypt all of your personal information and make it so that none of that information can be decrypted unless you have the proper key. The way that you obtain that key is that you send the attackers money or Bitcoin. And they will send you the key that will then decrypt all of your personal information.
+
+This is the infection screen shown with WannaCry, which tells you that your files have been encrypted. It explains what happened to your computer, how you can recover your files, and most importantly for the attacker, how you pay to get the key to decrypt all of your personal information.
+
+There are some relatively simple ways to protect yourself against ransomware. One of the most obvious ones is to always have a good backup. And this needs to be backup that is not an online backup or an immediately accessible backup from your computer.
+
+That’s because ransomware looks at all of the things connected to your computer. And if they find a backup, they will also encrypt the backup that you’ve created. This is also why we tell people to always maintain the security patches on your system so that all of those known vulnerabilities are not available to this ransomware.
+
+The same thing applies to the applications that you run on your computer, to make sure there is no vulnerabilities with those. And you want to be sure that your antivirus and anti-malware software are always running the latest signatures. If your system is up to date and you have a known good backup, even if the malware was able to get onto your system and ransomware was to be installed, you would still be able to recover everything from your backup. And you’d be back up and running without having to send any money to the attacker.

@@ -1,0 +1,19 @@
+A logic bomb is a type of attack that occurs when a separate event is triggered. Very commonly these logic bombs are left by disgruntled employees or someone who has a grudge against an organization. One very common type of logic bomb is a time bomb. This is one that occurs when a particular date and time is reached.
+
+A logic bomb can be more than just a date and time that’s reached, of course. You could have certain other events occur. If someone places a file in a particular folder, that may be what causes this particular logic bomb to execute. Or perhaps someone turns on or off a computer and that is the trigger that causes the bomb to go off.
+
+It’s difficult to identify if a logic bomb has been placed in a system because it doesn’t follow any known signature. It’s not possible for antivirus or anti-malware to automatically recognize that a logic bomb may exist. It also might be difficult to gather evidence after the fact, because many logic bombs will delete themselves once they’ve executed.
+
+A good example of a time-based logic bomb occurred on March 19 of 2013 in South Korea. There were organizations in South Korea that were primarily media organizations and banks that received email messages that had malicious attachments in them. They looked like they were emails from a bank. And if someone ran that attachment, a Trojan installed malware on those systems.
+
+And a day later, on March 20, at 2:00 PM local time, the bomb activated. And it began deleting master boot records and rebooting systems. Without a master boot record, these systems restarted and showed that a boot device was not found, please install an operating system on your hard disk. Not only did this affect many workstations and servers, it also disabled many automatic teller machines throughout South Korea.
+
+A more disruptive type of time bomb occurred on December 17th of 2016 at 11:53 PM in Ukraine. This focused on high voltage substations. These were the substations that sent power between different locations within the country. And at this particular time, the logic bomb began disabling electrical circuits and bringing down electrical connections throughout the country.
+
+The malware that had been installed had begun mapping out the controlled network of these systems and began disabling power at a particular date and time. This malware was customized to work with these SCADA networks. These are the supervisory control and data acquisition networks that are used to manage these types of electrical systems.
+
+As I mentioned earlier, it’s difficult to know when someone may have installed a logic bomb because there’s no known signature that you can use to alert you that something has been identified as a logic bomb. But there are things you can do with your processes and procedures to help prevent a logic bomb from being installed in the first place. A good example of this might be to have a formal set of processes and controls if any changes are made in the environment.
+
+That way, if you notice that something has been modified on a server but there were no plans and no processes in place to make those changes, that might be suspicious and might cause you to do a little more research into what might have changed on that system. There are also automated processes of doing this. You can configure host-based intrusion prevention or applications like Tripwire that will look for certain changes to occur.
+
+And if those changes happen, you’ll be alerted and notified that someone tried to make a change to that system. And of course, it’s important to have constant auditing of these alert systems and the computer systems themselves. System administrators, for example, have full control to these systems. So it’s good to have an auditing process in place to make sure that all of the changes that are being made are authorized.
