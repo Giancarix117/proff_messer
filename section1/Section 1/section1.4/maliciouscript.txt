@@ -1,0 +1,27 @@
+If you’ve ever done any type of automation or scripting with an operating system or devices on your network, then you know what a benefit it can be. You don’t have to be there to perform these functions. They can be done for you automatically. And if problems occur, they can be automatically identified and a series of tasks can occur to resolve the problem without any type of human intervention.
+
+This also happens very quickly because it’s happening at the speed of the computer. You’re able to identify and resolve these problems much faster than anyone would be able to type interactively into a keyboard.
+
+And from the attacker’s perspective, having an automated attack function means that they can sit back and let many different automated functions find the vulnerable systems wherever they happen to be.
+
+PowerShell is a specially built command line for Windows. This is included with Windows 8, 8.1, and Windows 10. And you’ll often see PowerShell scripts have a PS1 file extension. This takes the idea of the normal Windows command line and extends its’ functionality to be able to manage almost every aspect of the Windows operating system.
+
+PowerShell can run functions at the command line, called command-lets, can also run PowerShell specific scripts, or run executables right from the PowerShell command prompt.
+
+If an attacker wants to control Microsoft Windows, then Windows PowerShell is a perfect jumping off point. They’re able to administer the system, access Active Directory, or modify files that are in the file system.
+
+A more generalized scripting language would be Python. That usually has a .py extension. Python is used across many different operating systems, including Windows, Mac OS, and Linux, which means you could create Python scripts that might work across different operating systems.
+
+Python is also commonly used in a cloud based environment. So if you’re building or tearing down application instances, that orchestration is often managed using Python scripts. And if an attacker is interested in hacking cloud based system servers, routers, switches, and other infrastructure devices, then Python might be a good choice.
+
+In Microsoft Windows, we have the command prompt. But in Unix and Linux, we have the shell script. This is a very flexible scripting environment. And it can be customized with a bash shell, a bourne shell, a korn shell, a c shell, and other types of shells as well.
+
+This is an example of a shell script. It starts with a special set of characters on the very first line, called a shebang, it’s a hash-bang. And that designates that this is a shell script that would run with the shell type that is listed immediately afterwards.
+
+If an attacker is using Linux as a jumping off point or is trying to attack Linux systems, then the shell script may be what they use to perform that functionality. Since effectively everything in the Linux or Unix environment can be done at the command line, it makes sense that the shell script would be a perfect way to automate some of these attacks.
+
+Some applications have their own way of performing scripts. These are macros. And they’re written specific to certain types of applications. These are designed to make the application easier to use by automating certain functions within the usability of the application itself. But attackers have found that they can use these macros to also perform malicious attacks against the applications as well. They just need the user to open the file that has the macro, and have the macro execute, and then whatever malicious payload they put inside of the macro will now execute on the user’s workstation.
+
+In the Microsoft Office line of products, Microsoft has taken the idea of macro to a completely new level. This is Visual Basic for Applications, or VBA. And it’s a way to provide extensive automation inside of Microsoft Office. Not only is VBA able to interact inside of Microsoft Office, there are also hooks in VBA that can talk directly to the operating system. As you can imagine, this might be a very good place for an attacker to try gaining access to an operating system.
+
+An example of a vulnerability that might cause exactly that type of access for an attacker is in CVE-2010-0815. In this vulnerability, VBA does not properly search for ActiveX controls in a document. This allows the attacker to run their own code on this device, which means they could install malware, have a backdoor installed, or have any other type of malicious software execute on that computer.    
