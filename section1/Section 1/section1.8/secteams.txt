@@ -1,0 +1,23 @@
+IT security is a broad field and there will be many different tasks, with many different goals and job descriptions. There will be people that are performing operational security, another group of folks may be your penetration testers, there may be another group of people that perform research on all of the exploits that you’re seeing on your network, and other people may be in charge of hardening systems such as your web servers, database servers, and other devices.
+
+You don’t generally find one person at these organizations, who’s performing all of these tasks, instead, you’ll find individuals who have focused their efforts into niches within these particular areas. So they become an expert in penetration testing, exploit research, operational security, and the like.
+
+This is usually separated into different teams. There’s a red team, a blue team, a purple team, and a white team. The red team is usually referring to the team of folks who are on offense. These are folks that are performing the penetration test themselves. You might hear those referred to as ethical hacking, because they’re working for us, to try to find the holes that might be in our network.
+
+These would be groups of people that can gain access to these systems using exploits, but they have to find the vulnerabilities in these systems to be able to do it. They might also perform other types of attacks such as social engineering attacks, to see just how susceptible your organization might be to a third party, calling into the organization, or sending emails. They might also have daily tests that are done on all of the web servers to scan the applications and see if they can identify any vulnerabilities.
+
+We often think of the blue team as being the opposite of the red team. This is the team that’s on defense, that’s trying to protect themselves against the attacks coming from the red team. These are the folks that are performing the day-to-day operational security to keep your devices and your data safe, and they’re also the ones that are responding to incidents that may occur in your organization.
+
+If there’s any type of damage control or reconstruction that needs to be done, it will be done by the blue team. This is also the team that will stay up to date with the latest set of published vulnerabilities, and make sure that all of the systems are patched and up to date. And if an attack does occur, this will be the team that puts together the information about what happened during the attack, and what they were able to do to stop this attack.
+
+Of course in an organization that has a red team and a blue team, both of those teams are working towards a common goal. You want to be sure that all of the systems and all of the data in your organization is safe. To be able to facilitate these common goals, many organizations will combine these teams together, into a purple team.
+
+This means that instead of competing with each other, they’re both sharing information about what they find on the network, and that way they’re able to fix the applications, secure the data and make sure that everything remains secure that much faster.
+
+In organizations that have a purple team, there’s usually a feedback loop that works back and forth between both of those teams. So as soon as the red team finds a problem, they can inform the blue team, and as soon as the blue team knows their particular vulnerability has been released, they can let the red team know what systems have been patched.
+
+The white team is not on the red team or the blue team, instead, the white team is overseeing what’s happening with both of those teams, on the network. You can think of them as the referee or the manager of a particular set of processes, so they can enforce any rules that may be in place between the red team and the blue team.
+
+If there are any issues that need to be resolved, the white team would do that as well. And in organizations that keep score over the performance of the red team and the blue team, the white team handles that scoring process.
+
+This is also the team that is in charge of putting together the results of a particular penetration test, so they can identify what things worked well during the pen test, which things did not work well, and things they might want to change the next time they perform this test.
