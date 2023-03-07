@@ -1,0 +1,15 @@
+Radio frequency jamming, or RF jamming, is a way for an attacker to disrupt a wireless network and effectively create a denial of service situation. The goal is to decrease the signal-to-noise ratio at that receiving device, whether that’s the end station or the access point. The signal-to-noise ratio describes the relationship between the good signal received by a device and all of the other type of wireless signal that is received by that device.
+
+As long as the good part of the wireless signal is received and understood above all of the other noise that may be in that particular spectrum, then the signal is able to be received and communication can continue. But if the amount of noise is able to overwhelm the good signal, then the signal-to-noise ratio will be decreased and the receiving device would not be able to communicate on that wireless network.
+
+Sometimes this disruption of the signal is not something that’s intentional. It could be that someone’s turned on a microwave oven and the oven is sending interference that’s causing this signal not to be received by the end stations. But, of course, if this is some type of attack, then someone maliciously may be sending additional noise on to the network to prevent someone else from receiving that wireless signal.
+
+Attackers will use many different techniques to create noise and conflict on the wireless spectrum. One way is to send constant, random amount of information over the network to overwhelm the good signal. This might also be a constant amount of traffic sending legitimate frames as well, and simply using up all of the available bandwidth to do that.
+
+This type of wireless jamming might also be something that’s intermittent. The attacker may be intermittently sending random data or intermittently sending legitimate frames to disrupt the normal flow of communication. The attacker might also put a little bit of a spin on the jamming by only sending jamming signals when someone else tries to communicate on the network, effectively finding one individual device and limiting that device from communicating on the network.
+
+To be able to disrupt devices that are on a local wireless network, the jamming device would need to be relatively close so that it could overwhelm the good signal. This means that an attacker would either physically need to be somewhere near that wireless network or they would have needed to install a device somewhere near that physical network.
+
+Trying to find the source of this particular jamming signal could be challenging. Many times we’ll do what’s called a fox hunt, where you have a directional antenna and headphones and you can move that antenna around to see where the strongest signal is coming from. And then as you get closer to the signal, you can attenuate the signal or make it less strong so that you’re then able to get a better reading and eventually you can triangulate where that signal may be coming from.
+
+Finding and resolving these jamming issues can be challenging, but if you have the right equipment and the right techniques, you’ll be able to locate and remove those from the network.

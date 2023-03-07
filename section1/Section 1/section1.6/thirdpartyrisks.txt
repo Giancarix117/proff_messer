@@ -1,0 +1,35 @@
+No matter the size of your organization, there will be some type of third party that has access to your systems, your applications, or your data. And because these third parties exist does not mean that we can have less security. We need just as much security because these third parties are on our network.
+
+It may be that the third parties are people that you can trust. But you should always plan for the worst possible scenario and make sure that your security policies and procedures are expecting those types of problems. And of course, these issues may not be malicious. It may just be errors that are created because everyone is human, and occasionally, problems will happen. You need to make sure that the security you’re putting in place for the technology and the physical security that you’re installing is taking into account all of these third parties.
+
+It may be that the third party is handling your hosting services, or maybe you contract with a third party to be able to do development work. In most of these cases, the system integrators have additional access to the systems because they need that access to be able to do their jobs.
+
+Even if the systems integrators are not on site, they still have access to the data. They may have virtual access to the data or through a terminal screen, or they may be physically on site and be able to install equipment, such as keyloggers or USB flash drives.
+
+And because these integrators are on the inside of the network, they’re past the firewalls and the security devices that we commonly put on the perimeter. That means they might be able to run software such as port scanners or capture data directly from the network without needing to go through any type of security controls.
+
+And if you’re on the inside, it’s much easier to put malware into an existing network, because you’ve now gone past all of those security filters. And in some cases, running software that you thought was safe may inadvertently install malware on systems. And now that those integrators are on the inside, it becomes much easier to deploy those instead of having to go through an existing email filter or firewall.
+
+We rely a lot on our vendors to be able to maintain the security of the systems that we’re putting into our environment. And very often, we have to make sure that the vendors know a problem exists and that they can fix the problem in a timely manner. This isn’t always the case. You have to, of course, make sure that the vendor is aware of the problem, and then the vendor themselves has to be motivated enough to make sure that they can keep those systems up to date and safe.
+
+For example, we can look at the situation that occurred with Trane Comfortlink II thermostats. These are thermostats that can be remotely managed and maintained. Trane was notified in April of 2014 that there were three security vulnerabilities associated with these thermostats, but it took a long time to have Trane finally resolve these particular vulnerabilities. Two of these were patched in April of 2015, a year later, and another one in January 2016, almost two years after these vulnerabilities were identified.
+
+These are the types of security issues that we rely on our vendors to be able to resolve. We can’t make these changes ourselves. So you have to make sure that you partner with vendors that will be aware of these problems and be able to react to them quickly.
+
+Almost everything that we use in our networks and our systems all come from a third party. We may be purchasing equipment from a third party or getting raw materials that are brought in from a third party. And with all of those products, every step along the supply chain, there is the potential for a security issue. That’s why it’s always important to maintain your security controls, whether these are devices that you have in-house or things that you bring in from a third party.
+
+For example, it’s rare, but certainly not unheard of, to bring software into the organization that may have previously been infected with malware. And although you trusted the software coming from this third party, it, in fact, was able to infect your systems once you installed the trusted software.
+
+And these days, you also have to check the hardware that you’re getting from a third party. Some people have purchased Cisco switches, but what arrived, although it looked like a Cisco switch, was, in fact, a counterfeit switch. Organizations need to have processes and procedures in place so that they’re able to monitor all of this coming through the supply chain and be able to react to any type of security concern.
+
+Not every organization has the resources available to do their own in-house development. You often have to go outside to a third party to have some programming services done for you. In those cases, you need to make sure that you’re building a secure environment for the developers to work in and for you to be able to evaluate the code that’s being created.
+
+For example, you have to decide where the code itself will be stored. If you have the code in-house, you may want to provide the developers with a VPN connection to all of that data, or you may want to have the data stored on a centralized cloud-based server. In both of those situations, you need to make sure that you’re putting in the correct security controls for where the data happens to be and how people are accessing it.
+
+It’s also a good best practice to make sure that wherever that data is stored and where the developers may be working is isolated and secure from the rest of the network. The production services should be on a separate, isolated part of the network, and the development team should not have access to the production site of the network.
+
+And once the code has been completed, it needs to be checked to make sure there’s no other ways to gain access into that application. And you want to be sure that the data that’s being used by that application is being stored in a secure way and is being transmitted across the network in encrypted form.
+
+With cloud-based services, we are storing a lot of information in a separate, third-party location. Some of this data needs to be evaluated for security. This data may contain customer information. There may be healthcare data or financial details. And we need to make sure that we’re applying the proper security around the type of data that we’re storing.
+
+For example, there may be a mandate that healthcare information or financial information is stored in encrypted form, especially when storing it at a third party. This certainly protects the data against a third party gaining access, but it also increases the complexities around managing the encryption process. And if we are storing that data at a third-party location, we need to be sure that the transfer of data in and out of that facility is all done over an encrypted channel.

@@ -1,0 +1,49 @@
+A Denial of Service is when an attacker causes a service to become unavailable. They might cause a web server to stop responding, or perhaps emails can no longer be sent. This is usually because there’s some type of vulnerability in the software that runs the service, or there’s some type of design failure with the systems surrounding the operation of that service.
+
+That’s why it’s always so important to make sure that you always keep your operating system, and your applications up to date with the latest versions. Sometimes this is done by a competition. They would like to see your web server be offline so that people would visit their site instead.
+
+Or they may be using this Denial-of-Service, to be more of a smokescreen, for something else they’re doing on your network. If they bring down your DNS server, all of your efforts will be on getting your DNS server back up and running, in the meantime, they’re pulling all of your data from your database.
+
+We often think of denial of service, as being thousands of people hitting a website at one time, there’s a botnet that’s being controlled. But the reality is, many Denial of service can be very simple. An attacker walking up to a building and pulling the power switch is a very effective Denial-of-Service, and it certainly causes services to be unavailable.
+
+Sometimes, we cause these problems ourselves. It doesn’t always have to be an attacker causing a Denial-of-Service. For example, if you plug in the wrong cables to the wrong switch, you may inadvertently create a loop in your network, and cause the entire network to become unavailable.
+
+That’s why we always tell you to turn on Spanning Tree Protocol so that you won’t inadvertently cause these types of layer to loops. If you have limited access to the internet, one person downloading a very large file could create an outage for everybody. You want to be sure that you have a way to manage the bandwidth over your internet connections so that you’re not causing a Denial-of-Service for everybody else.
+
+And of course, we have to think about our physical facility as well. Something like, a water line break, can certainly create a problem, especially if that water line happens to be in the ceiling above your data center.
+
+A well-equipped attacker isn’t going to use one system to attack one service, they’re instead going to use many, many, systems to attack a single service, and what’s called a Distributed Denial of Service attack. This is where many devices might be used simultaneously to create bandwidth spikes or attack a particular service and cause it to be unavailable.
+
+The attackers often use botnets to be able to perform these Distributed Denial of Service attacks or DDoS attacks. They might have thousands or even millions of computers at their disposal, and they might decide to send a certain group of those towards your web server, and cause it to be unavailable.
+
+For example, at its peak, the Zeus botnet infected over 3.6 million computers. This allowed whoever was running the botnet, to be able to control all of those systems, and create Distributed Denial of Service attacks among other things. With Adidas, it’s very common for all of these individual attackers to have fewer resources, than the device they happen to be attacking. But because all of them are attacking at the same time, they’re able to easily overwhelm the resources of the victim.
+
+The attackers have also found ways to increase the amount of traffic that’s being sent during these DDoS attacks. One way to do this is to create DDoS amplification. It’s a way to take a small attack, and suddenly have it arrive at the victim’s machine as a much larger attack.
+
+This usually involves reflecting a particular type of protocol from one service, onto the victim’s machine. This might use ICMP, it could use DNS, or maybe NTP, as a way to send a little bit of information into a service, that is then amplified and sent to the victim’s computer.
+
+Here’s an example of how you can use DNS, to amplify a Distributed Denial of Service attack. DNS is usually a very simple and small conversation between two devices. A single client asks a DNS server for an IP address, and that IP address is sent back to the client.
+
+In this query though, that’s sent to iac.org, you can see the query appear in the blue, this entire answer section is the information that is sent back. That is a very large amount of information that is sent for such a simple query to a DNS server. A query that is 28 characters in length created a response that is over 1,300 characters in length.
+
+For an attacker to take advantage of this, they need to find DNS resolvers that are open and available for anyone to query this device, and be able to query this device with a spoofed IP address. That starts with a botnet command and control service, that is going to send a message to the botnet, and it’s going to ask the botnet to send that 28 byte DNS query, to these open DNS resolvers.
+
+At this point, that’s a very small query to make across the network, and so those devices will send that request in. Now those DNS servers are receiving this query from a spoofed IP address, and the IP address that’s being spoofed is this web server. Of course, this query that was 28 characters, turns into a response of over 1,300 characters, and all of those DNS servers, are going to send that response to the web server that was spoofed in the original query.
+
+This large amount of traffic can easily overwhelm a web server, and of course, the command and control can continue to have those botnets, constantly send those DNS queries, and constantly amplify the amount of traffic being sent to that website server.
+
+If an application has a type of vulnerability, an attacker could take advantage of that to cause a Denial-of-Service. An example of an application Denial-of-Service would be something like a zip bomb. A zip bomb is a 42-kilobyte zip compressed file. That’s a relatively small file.
+
+But when you uncompress that zip file, it expands to 4.5 petabytes, which is probably much larger than the amount of available drive space in your computer. So you could send somebody the zip file, ask them to uncompress it, and it will very quickly overwhelm the available storage on that system, creating a Denial-of-Service.
+
+Another type of application, Denial-of-Service might be with a cloud-based service. Many organizations will configure their cloud-based services to automatically add more resources as the application becomes busier. This is called rapid elasticity. It’s a very common way to maintain uptime, especially on a cloud-based service.
+
+But if an attacker is able to start using more and more resources of that application, your web-based service will continue to start adding more and more application instances. And every time more application instances are created, there are more resources in use, and more money that is being spent, to maintain that cloud-based service.
+
+If an attacker can slow down that application to make the response times become much slower, that might also cause more application instances to be created. In all of these cases, the attacker is trying to find a way to create and use more resources, make the system more difficult to manage, and in some cases, make it much more expensive for the end-user.
+
+Our society relies on industrial equipment to maintain things like electric grids, make sure that our traffic lights are working properly, or that our manufacturing plants are working the way we would expect. But if an attacker is able to take advantage of these Operational Technology environments, or OT environments, they could create Denial-of-Service situations.
+
+There’s much more at stake here than having a web server become unavailable. A Denial-of-Service of operational technology means that the power grid stops operating, or the traffic lights, all turn green in all directions. These would be significant problems that would create Denial-of-Service over a very large area, for a large number of people.
+
+There’s a very different security posture you would use for operational technology. You can’t simply put a firewall in place and believe that you have all of the security you need. In these technologies that handle such critical infrastructure, we usually have a completely different approach to how we segment and protect these components.

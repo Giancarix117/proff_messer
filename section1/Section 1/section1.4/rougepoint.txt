@@ -1,0 +1,17 @@
+A rogue access point is an access point that has been added to your network without your authorization. This might be an end user, an employee of the company who goes out and purchases a relatively inexpensive access point, brings it back into the office, and uses that to connect their own devices. This would obviously be a security concern, but not necessarily someone looking to cause any harm.
+
+But obviously, this could be a very significant security issue if someone was to gain access to that wireless access point and then ultimately access to your corporate network.
+
+It’s becoming easier and easier to create a rogue access point on the network. It’s certainly easy to purchase an access point, bring it into the office, and plug it in wherever you happen to have an Ethernet network connection. You might also turn on wireless sharing inside of the operating system of your mobile device or your laptop or desktop. Those devices can also look like an access point to other devices, and would effectively turn into a rogue access point inside of the computer that you’re already using.
+
+This is why it’s always a good idea to perform periodic reviews of your wireless environment to make sure that the only access points you happen to see on your network are the ones that you put there. There are many third-party devices that can help you understand the wireless spectrum and who may be using the frequencies in your environment. And there’s third-party tools, like the Wi-Fi Pineapple, that can set themselves up as a rogue access point to see if other people on the network happen to use it.
+
+This is why it’s important to use network access control mechanisms, like 802.1x, that requires that everyone connecting to the network provide a username, password, or some other type of authentication before they are allowed access onto the network. This means if somebody was to install a rogue access point and someone from the outside accessed that rogue access point, they still would not be able to gain access to your network, because they would have to authenticate with a proper username and password, as long as you were running 802.1x.
+
+A more sinister type of rogue access point is a wireless evil twin. This is an access point that is designed to look exactly like the access points that are already on your network, but they were put there for a malicious reason. This is usually an attacker that’s trying to get your users to connect to their access point by using a similar SSID name, similar configuration settings, or putting the access point in an area where your users might happen to be.
+
+If the attacker does manage to get the wireless evil twin installed somewhere close by to your users, that evil twin could overpower the signal from the other access points and become the primary access point on the network.
+
+This is an even larger concern on networks that may already be open, such as a public Wi-Fi hotspot. Those networks make it very easy for someone to maliciously install a wireless evil twin and then have other people connect to that device, thinking they’re connecting to the legitimate public Wi-Fi network.
+
+If you’re using a wireless network, and especially if you’re using a public Wi-Fi open network, you want to be sure that all of your communications sent across that network is encrypted. Make sure that you’re communicating to all websites over HTTPS, or even better install a VPN client, and all of your traffic, regardless of where it’s going, will always be encrypted over that wireless network.

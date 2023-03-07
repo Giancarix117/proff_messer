@@ -1,0 +1,25 @@
+In today’s modern computing environments, there are a lot of different things all happening at the same time. And developers have to be aware of exactly what might happen and when. You do have problems that can occur though if multiple things are occurring simultaneously and you weren’t expecting them to occur simultaneously. This is called a race condition.
+
+And if you haven’t written your software to plan for these types of situations, the results can be disastrous. Attackers can take advantage of this using something called a time-of-check to time-of-use attack, a TOCTOU. This type of attack is checking for things to occur on the system and making changes but knowing that there might be other changes occurring behind the scenes at the same time.
+
+Let’s look at a race condition example. This is one where we’re going to take money in one account and transfer it to another account. There are two starting accounts– account A and account B. Both accounts start with $100. We also have user 1 and user 2. These will both be performing these transactions at close to the same time.
+
+We’ll start with user 1, who’s going to perform a check balance to see what the current balance is in both of these accounts. And both account A and account B both have $100. Just after that, user two also performs a check balance and also sees that account A is $100 and account B has $100 as well.
+
+Now user 1 is going to add $50 to account B, which means that account A remains at $100. And we’ve added $50 to account B. It increases to $150. User 2 performs exactly the same function– adds $50 to account B. Account A, of course, still has $100. And notice that account B has increased by $50 to $200.
+
+Since this is a transfer of $50 and we’ve added the $50 to account B, we need to remove the $50 from account A. And if we remove it from that $100 balance, account A’s balance goes down to $50. Notice that account B is at $200 because that’s the additional $50 that was added by user 2.
+
+Now we’re going to perform the same $50 removal from account A by user 2. User 2 performed a check balance and saw that account A was $100 and has not performed another check balance. So it doesn’t know that $50 has already been removed from account A. So it thinks that account A has $100. It removes 50, and that takes it down to $50.
+
+And the transfer is complete on both sides. Both sides were going to transfer $50 from account A to account B. But the ending value has account A at $50 and account B at $200. This is a very simple example of a race condition. But you can see the results of this race condition have very significant outcomes. It’s important that developers are taking into account every possible scenario and when those scenarios might occur.
+
+An example of a race condition that occurred in space was in January of 2004 in the Mars rover Spirit. The Spirit rover is designed to reboot its operating system whenever it runs into a problem that it can’t resolve. And in fact, it found a problem with the file system, so it rebooted itself because of that but found that the file system was corrupted during the boot process. And so it rebooted itself again.
+
+So it found itself in a reboot loop because of this race condition. They ultimately told the rover to reboot into a limited safe mode so that they could repair the file system, reboot the system, and get back up and running.
+
+Another race condition occurred in 2003 from the GE Energy Management System that was used to monitor electrical lines. Three power lines failed at the same time. But due to a race condition, a limited number of alerts was shown to technicians. This got quickly out of hand and caused the Northeast Blackout of 2003. It took a week or two for power to be restored. And it affected 10 million people in Ontario and 45 million people in the Northeast United States.
+
+And a deadly race condition occurred with a radiation therapy machine in the 1980s that used software as a security mechanism. If operators changed the software settings too quickly, the software interlocks failed. And that caused a race condition that had 100 times the normal dose of radiation. This resulted in six patients being injured and three patients dying.
+
+You can see how these race conditions can be caused by many different things. So it’s important that the developers always consider every possible scenario and plan for that in their software.

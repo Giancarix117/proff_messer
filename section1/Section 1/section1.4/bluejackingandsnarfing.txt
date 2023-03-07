@@ -1,0 +1,9 @@
+Bluejacking is an attacker sending an unsolicited message to a victim’s machine, usually this is a mobile phone or tablet, and the attacker is sending this message over Bluetooth. This does not use the cellular frequencies from a mobile carrier or 802.11 networks. It’s exclusive to using the Bluetooth communications channel.
+
+Since Bluetooth usually operates in a radius of about 10 meters, the attacker would need to be relatively close to the victim’s machine to be able to send these Bluejacking messages. Some Bluetooth implementations allow the Bluejacker to also send other types of information along with the Bluejacking message. So instead of sending just the message you are Bluejacked, you could send the message but also include a contact card, a video, or some other type of media.
+
+Bluejacking is a relatively low priority security concern because it’s only sending a message to someone’s device. It’s not accessing anything else in that mobile device or providing any enhanced capabilities. But, of course, your user should always be trained on what to do if they happen to see an unsolicited message appear on their mobile device.
+
+A security concern that is a higher priority is Bluesnarfing. Bluesnarfing is when an attacker can access data that’s on your mobile device using the Bluetooth communications channel. Using Bluesnarfing, an attacker would be able to access contact lists, emails, calendar information, or any other data you might keep on that mobile device.
+
+This was a significant security concern when it was released in 2003, but it was patched relatively quickly. And if you’re using a modern device with Bluetooth, it is not going to be susceptible to Bluesnarfing. However, if you do have an older device that communicates via Bluetooth, it may be susceptible to this Bluesnarfing attack so you need to make sure that the proper security procedures are in place and that device is not one that could be accessed over Bluetooth.

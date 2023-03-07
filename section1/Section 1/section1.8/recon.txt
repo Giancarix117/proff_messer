@@ -1,0 +1,27 @@
+Before you perform a penetration test, it’s always good to gather information about the systems that will be attacked. This is the reconnaissance phase and this is the part where we will begin to footprint all of the different devices that are in an organization.
+
+We need to understand exactly what security tools are in place. So it’s good to do some research and find out what firewalls and other security devices may be operating. This is also the time where will determine exactly what devices we want to attack. There are hundreds or even thousands of devices on these enterprise networks. So it’s always good to understand what the key systems are and to focus our efforts on getting into those devices.
+
+To get a better understanding of the networks and devices you’ll be attacking during this penetration test, you may want to create a network map. This may be able to build out an understanding of IP address schemes, the locations of certain devices and perhaps specific VLAN the different devices may be located on.
+
+A good place to start would be to gather information in a way that would not be seen by the victim, this is a passive footprint. And it’s a way to use data that’s located in the open source areas to be able to understand more about the systems you’ll be attacking. A good example of passive footprinting, might be to look at social media pages for a particular organization. Or look at the corporate website itself to gather details about what might be on the network.
+
+There are also many online forums and spreadsheets that contain information about many organizations. Then you may be able to perform some social engineering by calling directly into the organization. You could also dive into the dumpsters around back and look through their trash for details. There might also be a way to look at other business organizations and see how they are interacting with this potential victim.
+
+Much of this information in the open source can be categorized as open source intelligence or OSINT. The data that you can gather through these open sources is extensive. And a good location that gives you a framework of information that you can gather can be found at osintframework.com.
+
+Just the first level of this framework provides information such as username, email address, search engine information, dating sites, archives, the dark web and so much more. Gathering this information manually could take time. But there are many tools available that can go to many different websites to gather this information for you.
+
+Another source of data for your passive footprinting might be wardriving or warflying. This is where we’re combining Wi-Fi analysis with GPS locations to be able to know exactly where a wireless network might be. We can also gather information about the wireless network itself, such as the name of the wireless network where the access points might be located. And some of the information about what frequencies may be in use.
+
+With wardriving we’re gathering this information as we drive around the streets of the city. We can also do warflying where we combine this with a drone and simply float above all of these organizations to gather these wireless details. Once we start accumulating information we can find all of the SSID or wireless network names. Will understand more about whether encryption is turned on or not with these particular networks.
+
+And you can get strength values of the signals to know just how far away an access point might be. There can be an extensive amount of data collected over time. And all of this can be done for free. There are tools available on the internet such as Kismet and inSSiDer that can gather this information and combine it with a map of the geography.
+
+You can see a combination of that at wigle.net, W-i-g-l-e.net. Or where you can see the results of this wardriving overlaid onto a map. So you can see exactly where all of the wireless networks might be. And then you can drill down into any of those to gather more information about that particular site.
+
+With active footprinting, we’re going to actively send information into this network or the devices on this network in order to gain more information about what might be there. If someone is monitoring network communication or capturing the packets on this network they will see us perform these active footprinting tasks.
+
+To gather this information will commonly perform ping scans, port scans, analyze DNS information from the local DNS servers. And we might perform more detailed analysis of the operating systems that are running on these devices. And using tools like unmap we can even determine what the version of an operating system or the version of a service might be on a particular device.
+
+All of this active footprinting helps us understand what these devices might be on the network. But just keep in mind because it’s active footprinting that someone else could see that we’re performing these reconnaissance tasks.

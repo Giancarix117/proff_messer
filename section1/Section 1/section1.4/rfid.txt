@@ -1,0 +1,19 @@
+RFID stands for Radio-Frequency Identification. And it’s a technology that you’ll find in many different places. It’s inside the access cards we use at work.
+
+You may find that it’s on an assembly line to be able to track where a particular component may be. There might be even RFID tags put in your animals or your pets so that you can track where they happen to be. It’s a technology that’s used in anything that you might want to track.
+
+Here is one type of RFID tag. It’s right next to a grain of rice to give you an idea of how small some of these can be. The kind of RFID tag you commonly see in something like an ID card is the flatter version that you see here. It’s one that uses radar technology because there’s no battery inside of this RFID tag. Instead, the signal that we are sending to the tag powers the tag itself. And then it is able to transmit its ID back to us.
+
+Although many RFID implementations are unidirectional in communication, there are some RFID implementations that do provide for bidirectional communication. And although this RFID tag does not have a battery, there are some RFID tags that do support a powered implementation. So it does not need to have energy transmitted to the tag to have that tag then send information back to you.
+
+This is a wireless communication. So many of the vulnerabilities you would get with any wireless communication would also apply to RFID. For example, capturing the data between the RFID tag and the RFID reader is certainly something you would need to consider, especially if that communication is in the clear and not encrypted. If this is an active tag that contains information that can be changed, you could even spoof the reader and send information to the tag that might modify the contents of that RFID tag itself.
+
+If someone was able to jam the frequencies that were associated with this RFID communication, then they may create a denial-of-service situation. And no one would be able to read this RFID information. And even in cases where someone has encrypted the communication between the RFID reader and the RFID tag, unfortunately, a number of these keys have gotten out. And people are able to decrypt this information by simply performing a few Google searches and then finding the decryption key.
+
+Another type of RFID technology that is very common in today’s mobile devices is NFC. That is Near Field Communication. You will commonly see NFC used in stores so that you can use your mobile phone or your smartwatch to be able to pay for goods during checkout.
+
+Bluetooth also uses NFC to simplify the pairing process. So instead of having PIN numbers and turning on the pairing process, you can simply move your mobile device near the Bluetooth device. And it will automatically pair that Bluetooth function. And since NFC allows us to associate with a particular mobile device, we could use this NFC functionality as an authentication factor or a key to unlock a door.
+
+The security concerns we have with RFID are very similar with NFC. We, of course, are concerned about someone being able to capture information, especially if that NFC communication is sent in the clear. This is a wireless communication. So any interference of those frequencies will create a denial-of-service situation.
+
+If the NFC communication is in the clear and not encrypted, someone may be able to sit in the middle of the conversation and be able to relay or modify that information between endpoints. And, of course, we need to make sure that the apps that rely on NFC are able to authenticate you properly so that someone could not steal your mobile phone and then use that to perform an NFC transaction.

@@ -1,0 +1,33 @@
+Attackers know that most of the communication between your computer and a web server is going to be over an encrypted channel. Very commonly, we use HTTPS to be able to send information back and forth, and know that all of the data in that channel is encrypted and away from the prying eyes of the attacker.
+
+But the attacker knows that it could find some ways to get into that data, if it’s able to start manipulating the data flow. And that is the SSL stripping, or what’s called the HTTP downgrade attack. This is the way that an attacker can sit on the path of the communication and modify the communication between the client and a server, so that it’s able to see all of the data in that data flow.
+
+For this attack to work, the attacker has to sit in the middle of the communication between the client and the server. So there might be a proxy server configuration. They might use ARP spoofing, or it might be a rogue Wi-Fi hotspot that allows the attacker to get in the middle of this conversation.
+
+From the victim’s machine, everything looks normal. There’s nothing unusual on the screen. There’s nothing visual that really shows what’s happening, except the browser page itself that normally would be encrypted is not encrypted. It’s communicating via HTTP, instead of communicating via HTTPS, for secure.
+
+This is a type of attack that has to be resolved by upgrading and maintaining software on both the client and the server workstation. If you can make sure that the browser you’re using and the web server software you’re using are not susceptible to a downgrade, then you can avoid this type of attack.
+
+Although the details of when these particular versions of SSL and TLS were released are not part of the exam, I want to step through what the evolution of this has been over time. If we start with SSL, which is Secure Sockets Layer– this is SSL version 2.0. It was released in 1995, and deprecated in 2011.
+
+Deprecated means that the industry best practices are that you not continue to use this software going forward. There’s an SSL 3.0 that was released in 1996. It was one that is found to be vulnerable to a number of cryptographic vulnerabilities. And so it was deprecated in June 2015.
+
+After SSL 3.0 came a change to the name of this encryption method, and it’s now called transport layer security, or TLS. TLS 1.0 was released in 1999. It was effectively an upgrade to SSL 3.0. But it does have a downgrade functionality that allows it to communicate with SSL 3.0. And as I mentioned, there are vulnerabilities in SSL 3.0. So this would effectively not be a good version to use either.
+
+TLS 1.1 was released in 2006, but it was deprecated in January of 2020 by most modern browsers that you would run into. Here at the end of 2020, TLS 1.2 and 1.3 are the latest standards and the ones commonly used to communicate to web servers.
+
+With an SSL stripping attack, you’ve got a website visitor that’s communicating to a web server, but in the middle of the communication is this attacker. This attacker will be proxying, or sitting in the middle on this on-path attack to modify any communication that might be going back and forth between these two devices.
+
+To start a normal web server communication, a client usually will send a get command. And in this case, the visitor is sending an HTTP URL to the web server itself. Since this attacker is sitting on path, it will receive this command, and effectively send it unchanged to the web server.
+
+The web server evaluates this, and notices that the client is asking for the non-encrypted version of this page, but wants all of the pages on the server to be sent as encrypted. So it’s going to send a message back to the client saying, let’s try this again. But instead of communicating via HTTP, let’s communicate via HTTPS.
+
+The attacker doesn’t want HTTPS communication to occur. So it’s going to intercept that request, and simply send back the HTTPS version of that request to the web server. This will set up an encrypted channel between the attacker and a web server, but not between the attacker and the website visitor.
+
+This web server will then send this page of information over this encrypted channel with HTTPS. The attacker will decrypt it, because the communication is between the attacker and the web server, and then will send back the in the clear or non-encrypted HTTP page to the website visitor.
+
+This is a normal response to the request that was made earlier, and the website visitor has no idea the attackers made these changes in the middle. This process can continue, because the website visitor might send a post command to log in to that server with their username and their password.
+
+Since this is set in the clear, and the attacker is in the middle of the conversation, the attacker will also see the username and password, but will pass that through to the web server over this encrypted channel using HTTPS. This process can continue with the web server responding back to that login request, and the attacker can, of course, view all of that information and forward it on to the website visitor.
+
+To avoid this type of attack, we’ve configured many of our web browsers not to communicate to servers using that HTTP method, and we’ve configured web servers not to respond to HTTP, and to instead expect HTTPS that’s coming directly from the website visitor, effectively locking out anyone who might be in the middle.

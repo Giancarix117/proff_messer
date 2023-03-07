@@ -1,0 +1,67 @@
+As a security professional, you may be spending quite a bit of time researching threats that could be potentially dangerous to your organization. These threats can come from public or private threat databases, you may get information directly from the hackers, or it may be information that you’re able to gather from other sources on the internet.
+
+The important part is knowing that a threat exists, and that’s why it’s important to constantly stay up to date with the latest threat posts, and understand exactly what threats may apply to your organization. These threat intelligence reports can be used by almost anybody in IT security. So it’s important to know exactly where you should go to get this information.
+
+A good place to start with gathering this intelligence is from open sources. This is OSINT or Open-source intelligence. This may be directly from the internet and discussion groups, or social media sites, or it may come from a governmental organization, where they’ve compiled information from meetings or reports, and they’re making that available publicly to everyone.
+
+And there’s also intelligence that you can gather from commercial resources. So financial information, databases maps, and other publicly available information. As you can imagine this threat information can be very valuable, and a number of organizations are in the business to compile this information together and make it available to you for a cost.
+
+These threat intelligence services, are in the business, to make this information available to you. They will compile this information from many different sources, and provide you with a method that you can use, to gather and look through the threats that may affect your organization.
+
+This threat intelligence is made available to you in a format, that allows you to easily see what threats may be affecting your organization. And it also allows you to automate some workflows that you can automatically be identified when a particular threat appears.
+
+A common source of threat intelligence are vulnerability databases. These are large databases that compile information, coming from many different researchers. The researchers will find a vulnerability, they’ll report that into the Vulnerability Database, and then they will publish that database to everyone.
+
+One popular database is the Common Vulnerabilities and Exposures database or CVE. This is sponsored by the US Department of Homeland Security and the Cybersecurity and Infrastructure Security Agency. All of this information is compiled into a database that you can find online, at the US National Vulnerability Database, or the NVD.
+
+It’s a summary of all of the CVEs, and you can search and browse through that database to find vulnerabilities that may affect you. An additional value that the NVD provides, is that they will compile all of these CVEs together, provide severity scoring so that you can get an idea of just how severe a particular vulnerability might be, and they’ll even give you ideas of how you may patch that particular vulnerability, so it won’t affect you in the future.
+
+This is the National Vulnerability Database dashboard you can find on the NVD website. They’ve already received 11 new CVEs today and analyzed 34. You can get a summary of the score distributions of the vulnerabilities that exist in the database. So you can see instantly, how many are critical, high, medium, and low.
+
+If we scroll down a bit, you can get a summary of the last 20 scored vulnerability IDs. So for example, the one at the top of the list is CVE-2020-29041, a misconfiguration of web sesame 2020.1.1-3375, allows an unauthenticated attacker to download the source code of the application.
+
+They’ve identified this as a 5.3 or a medium severity on the 3.1 scoring and then you can click on this CVE and read more about this particular vulnerability. This will give more detail about the vulnerability of links to backgrounds, and patches associated with this vulnerability, and you can get an idea of exactly what software is known to be affected by this particular CVE.
+
+As you might expect sharing this vulnerability information, can be valuable for everyone. When one person identifies a vulnerability, they can let everyone else know that vulnerability exists. There are a number of different ways to share this data. There are public threat intelligence databases, that sometimes will provide information that has been classified, but made available by the federal government.
+
+They’re also private companies that share information, especially organizations that work in the security industry. With all of this data, one of the biggest challenges is making sure that you can receive data quickly, and that the information you’re receiving is of the highest quality.
+
+To help work towards these goals, the Cyber Threat Intelligence or CTA was created, where members upload the information they have about a particular threat. That information is evaluated and made available to the other members of the organization.
+
+And then other members of the CTA can evaluate that information, and validate what they’re seeing on their network, matches what everyone else is seeing as well. It’s another way that members can react faster to these types of threats with higher quality information.
+
+As you can imagine, there is an extensive amount of threat information that needs to be disseminated, and this information needs to be transferred in a way that’s secure. That’s why the industry has created AIS or Automated indicator sharing. It’s a way to automate this process and move this information, between organizations at the speed of the internet.
+
+To be able to transfer this data, there needs to be a standardized format for these threats, and the standardized format is called STIX. This is a Structured Threat Information eXpression, that includes information such as motivations, abilities, capabilities, and response information.
+
+In order to securely exchange this information, you need some type of trusted transport. And that trusted transport is a TAXII. It’s the Trusted Automated eXchange of Indicator Information. We use this standard TAXII format, to be able to transfer the STIX data between organizations.
+
+One unique and significant type of threat intelligence comes from the dark web. This is an overlay to the existing internet that requires specialized software to be able to access these private websites. There’s extensive information to gather from the dark web, including the activities of hacker groups.
+
+You can understand the tools and techniques they use to be able to gain access to people’s networks, and you’ll even find websites dedicated to selling the information that they gather such as credit cards and other account information. There are a number of communications channels available on the dark web, and these forums can also be a valuable tool to use in your search for intelligence against the attackers.
+
+Not only do you need to constantly monitor for potential threats to your network, you also need to have an understanding of when your network may have been breached. This would be an indicator of compromise, or an IOC. You’re looking for a specific activity that could indicate that someone is now on the inside of your network.
+
+For example, you may notice that a particular amount of network traffic has increased, which could be a normal result of what’s happening on your network, or it could be an indicator that someone is trying to transfer information outside of your network.
+
+Or perhaps files that normally would never change, suddenly have hash values that are different than they were yesterday, which could indicate that an attacker is making modifications to existing trusted files.
+
+Perhaps the information that is sent from your organization to other countries is different, or maybe things have changed in your DNS server. You might identify unusual patterns for people logging in at odd times of the day, or there may be certain files that are suddenly read or executed more than they would have normally been in the past.
+
+This is just a subset of indicators that could potentially identify a compromised network. It’s important that you’re able to put all of these indicators in place and more to be able to understand, when and where, someone may be attacking your network.
+
+In some cases, we may be able to predict, when a compromise may be attempted. We can do this based on a number of different criteria. One goal is to analyze very large amounts of data very quickly and be able to understand where attackers may be focusing their efforts, and if those efforts may lead them to your particular network.
+
+An example of this might be to evaluate in real-time the type of DNS queries you’re getting to your DNS servers or perhaps understand any changes that may be occurring with traffic patterns to your website. There might also be ways to combine this with location data so that you can understand that this is domestic traffic, or coming from an international source.
+
+If you start combining these characteristics, with vulnerabilities that has suddenly been identified, you may be able to predict if a particular system may be attacked. And knowing that the potential exists, may allow you to set up additional security for those particular systems.
+
+You can also see from this list that we’re not looking for a particular known signature. It’s not something that’s a very specific attack type, we’re instead looking at a very large amount of data, and trying to make inferences from that very large Data Source. There’s been an increasing emphasis in machine learnings, that we’re able to take all of this data and find better ways to analyze it, to protect our networks.
+
+Sometimes, it’s useful to get a visual perspective of where attacks may be originating and where they may be going to. There are a number of threat maps that you can view on the internet, that give you a perspective of different types of attacks, and how often these attacks are occurring throughout the day. These threat maps are often created from real-time data pulled from many different sources. So it’s another piece of intelligence you can use to help protect your network.
+
+There are a number of file or code repositories on the internet that can give you even more intelligence about what to protect yourself against. Locations like GitHub are sometimes used by the hackers, to be able to put together the tools that they then use to attack your network.
+
+These code repositories are often used to keep data private between developers, but sometimes misconfiguration can cause the source code to be released publicly. The attackers would love to get their hands on the source code. So they’re constantly monitoring these repositories, to see if someone may have accidentally made this information public.
+
+The attackers might look through the source code to try to find vulnerabilities that they could then use in exploits later. Or they may use the data within the code in future phishing attacks. Either way, it’s a great source of information for the attackers, and it’s something that you can use as another intelligence source to protect your network.
